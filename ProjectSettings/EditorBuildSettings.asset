@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Resources/Scenes/MainMenu.unity
+    guid: 2c484f04b12d6d042a57f944d40df958
+  - enabled: 1
+    path: Assets/Resources/Scenes/Plains.unity
+    guid: 2b8f8525236b6504bb3cb5eca7a48cd5
+  - enabled: 1
+    path: Assets/Resources/Scenes/PlainsEmpty.unity
+    guid: cb206a5dce7976c498ef37173ce3e03c
+  - enabled: 1
+    path: Assets/Resources/Scenes/Dungeon.unity
+    guid: 707dbd767e455ba47877aa213b66e77d
+  - enabled: 1
+    path: Assets/Resources/Scenes/DungeonEmpty.unity
+    guid: b9d4ec9e6d971e442b75247cca323d05
+  - enabled: 1
+    path: Assets/Resources/Scenes/DungeonCombat.unity
+    guid: 221f044db84449343827e4fff637aebe
+  - enabled: 1
+    path: Assets/Resources/Scenes/PlainsCombat.unity
+    guid: 3331ce90ac836984bbd06d94d647c948
+  - enabled: 1
+    path: Assets/Resources/Scenes/ControllsMenu.unity
+    guid: 8256a51375aad5745b8a631d4a4a88ba
+  m_configObjects: {}

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5794799009278550009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5794799009278550015}
+  - component: {fileID: 5794799009278550014}
+  m_Layer: 0
+  m_Name: BattleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5794799009278550015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5794799009278550009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 370.30774, y: 235.71231, z: -244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5794799009278550014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5794799009278550009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06004216d93d9954298799d6d9f00d52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleStates: 0
+  performer: {fileID: 0}
+  PerformList: []
+  HeroesInBattle: []
+  EnemiesInBattle: []
+  HeroInput: 0
+  HSM: {fileID: 0}
+  HeroesToManage: []
+  HeroChoice:
+    Attacker: 
+    Type: 
+    AttackersGameObject: {fileID: 0}
+    AttackersTarget: {fileID: 0}
+    chosenAttack: {fileID: 0}
+  enemyButton: {fileID: 5522876380887715498, guid: 3de0c53d648654946872be328d7e2378,
+    type: 3}
+  heroButton: {fileID: 5522876380887715498, guid: ef5afae930e5625419ea330314e17ea9,
+    type: 3}
+  TargetButtons: []
+  TargetPanelSpacer: {fileID: 0}
+  ActionPanel: {fileID: 0}
+  TargetSelectPanel: {fileID: 0}
+  ActionButtonPrefab: {fileID: 0}
+  ActionButton1: {fileID: 0}
+  ActionButton2: {fileID: 0}
+  ActionButton3: {fileID: 0}
+  ActionButton4: {fileID: 0}
+  ActionButtons: []
+  ActionPanelSpacer: {fileID: 0}
+  EndingText: {fileID: 0}
+  EndBattleButton: {fileID: 0}
+  BattleOver: 0
+  playerState: {fileID: 0}
+  enemyState: {fileID: 0}
+  gameManager: {fileID: 0}
+  CharacterBar: {fileID: 5251961224577310027, guid: c20c5317b5e89f5489f41a8cf2fec36b,
+    type: 3}
+  CharacterBar0: {fileID: 0}
+  CharacterBar1: {fileID: 0}
+  CharacterBar2: {fileID: 0}
+  CharacterBar3: {fileID: 0}
+  EnemyBar0: {fileID: 0}
+  EnemyBar1: {fileID: 0}
+  EnemyBar2: {fileID: 0}
+  EnemyBar3: {fileID: 0}
+  CharacterBarsCreated: 0
+  battleStarted: 0
+  HeroesAlive: 4
+  EnemiesAlive: 4

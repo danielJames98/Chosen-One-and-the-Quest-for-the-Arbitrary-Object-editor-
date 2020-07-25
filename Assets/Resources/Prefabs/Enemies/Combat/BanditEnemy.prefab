@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3831800334683667076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9034099288879285569}
+  - component: {fileID: 1951786971177904330}
+  m_Layer: 0
+  m_Name: BanditEnemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9034099288879285569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3831800334683667076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1951786971177904330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3831800334683667076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5b6597b7e1c664ea729c316b8d1680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Bandit
+  spritePath: Art/HeavyBandit/HeavyBandit_0
+  animatorPath: Animation/Bandits/HeavyGuard/CombatBanditAnimator
+  leftFacingSprite: 1
+  spriteScale: 5
+  yOffset: -1.43
+  maxHP: 80
+  curHP: 80
+  curAP: 0
+  baseSpeed: 20
+  curSpeed: 20
+  basePower: 10
+  curPower: 10
+  level: 1
+  lvl1HP: 80
+  lvl1Speed: 20
+  lvl1Power: 10
+  attacks:
+  - {fileID: 6688377487519607263, guid: 48bce487c818392498ddecc6772fd10f, type: 3}
+  - {fileID: 543980597236090781, guid: fc3645ed1bf17c043acae20a590109f6, type: 3}
+  - {fileID: -1275177173891838572, guid: 151d253e67ba0764abae2eb68b33a3fc, type: 3}
+  - {fileID: 6688377487519607263, guid: 48bce487c818392498ddecc6772fd10f, type: 3}

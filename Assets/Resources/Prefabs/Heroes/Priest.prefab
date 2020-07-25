@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4027483926336417245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6785006798618245484}
+  - component: {fileID: 3076885509050846756}
+  m_Layer: 0
+  m_Name: Priest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6785006798618245484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4027483926336417245}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3076885509050846756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4027483926336417245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642a776f91c124848825ea309e54e75c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Priest
+  spritePath: Art/Priest/idle1
+  animatorPath: Animation/Priest/PriestAnimator
+  maxHP: 70
+  curHP: 70
+  curAP: 0
+  baseSpeed: 20
+  curSpeed: 20
+  basePower: 10
+  curPower: 10
+  level: 1
+  lvl1HP: 70
+  lvl1Speed: 20
+  lvl1Power: 10
+  attacks:
+  - {fileID: 6410917536848065331, guid: 5b600a237c12da440bf81e5bd278a39b, type: 3}
+  - {fileID: 39533646428963167, guid: 61c75a21e1843ae4296cbf0d747af45b, type: 3}
+  - {fileID: 4861350244102355808, guid: f2a1493efa5bcd140aba53c0c636f7fb, type: 3}
+  - {fileID: 6966426649624799789, guid: 5e50d3026e62b8342a56df9199e97dcd, type: 3}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8195565850385210010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5782580482449458682}
+  - component: {fileID: -1113594142426493846}
+  m_Layer: 0
+  m_Name: MagicMissile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5782580482449458682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8195565850385210010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 354.96527, y: 222.24158, z: -136.355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1113594142426493846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8195565850385210010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a443ece0c63e7e42b2959f363941098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityName: Magic Missile
+  abilityDescription: Fire a blast of magical energy at the taret, dealing moderate
+    damage
+  abilityDamage: 10
+  abilityCost: 0
+  abilityType: Attack
+  ranged: 1
+  weakened: 0
+  block: 0
+  taunt: 0
+  strengthened: 0
+  stealth: 0
+  vulnerable: 0
+  stun: 0
+  shielded: 0
+  hastened: 0
+  slowed: 0
+  dotDamage: 0
+  dotDuration: 0

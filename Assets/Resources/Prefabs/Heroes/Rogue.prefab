@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1739513006847899249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1445778070663274530}
+  - component: {fileID: 2374014270967592269}
+  m_Layer: 0
+  m_Name: Rogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1445778070663274530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739513006847899249}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2374014270967592269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739513006847899249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642a776f91c124848825ea309e54e75c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Rogue
+  spritePath: Art/Rogue/Idle/Idle_0
+  animatorPath: Animation/Rogue/RogueAnimator
+  maxHP: 80
+  curHP: 80
+  curAP: 0
+  baseSpeed: 30
+  curSpeed: 30
+  basePower: 10
+  curPower: 10
+  level: 1
+  lvl1HP: 80
+  lvl1Speed: 30
+  lvl1Power: 10
+  attacks:
+  - {fileID: -3516028327507660264, guid: dd0d7bf2b8370184ea882a5f9cd5c8f3, type: 3}
+  - {fileID: 6688377487519607263, guid: 48bce487c818392498ddecc6772fd10f, type: 3}
+  - {fileID: -701973569700551967, guid: 9a989975c0a3d804aae3eb0ddce4a6a2, type: 3}
+  - {fileID: 1422727575759573881, guid: e4eec152b5451624a954f0a454d5bd94, type: 3}

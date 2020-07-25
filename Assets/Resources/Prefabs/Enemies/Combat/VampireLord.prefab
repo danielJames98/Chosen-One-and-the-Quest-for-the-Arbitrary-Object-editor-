@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5764945028211194100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 817020877101534175}
+  - component: {fileID: 7563814843839999349}
+  m_Layer: 0
+  m_Name: VampireLord
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &817020877101534175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5764945028211194100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7563814843839999349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5764945028211194100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5b6597b7e1c664ea729c316b8d1680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Vampire Lord
+  spritePath: Art/GothicVanie Cemetery Artworkd/Sprites/hero/hero-idle/hero-idle-1
+  animatorPath: Animation/Undead/VampireLord/CombatVampireLordAnimator
+  leftFacingSprite: 0
+  spriteScale: 6
+  yOffset: 0
+  forwardAbilitySource: {x: 0, y: 0}
+  overheadAbilitySource: {x: 0, y: 0}
+  maxHP: 100
+  curHP: 100
+  curAP: 0
+  baseSpeed: 20
+  curSpeed: 20
+  basePower: 20
+  curPower: 20
+  level: 1
+  lvl1HP: 100
+  lvl1Speed: 20
+  lvl1Power: 20
+  attacks:
+  - {fileID: 6688377487519607263, guid: 48bce487c818392498ddecc6772fd10f, type: 3}
+  - {fileID: 39533646428963167, guid: 61c75a21e1843ae4296cbf0d747af45b, type: 3}
+  - {fileID: -1275177173891838572, guid: 151d253e67ba0764abae2eb68b33a3fc, type: 3}
+  - {fileID: -5271978089336601764, guid: 9fa963ab09c793e4f9e2a4b285433342, type: 3}
